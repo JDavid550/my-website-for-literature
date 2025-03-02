@@ -19,16 +19,13 @@ const Header = () => {
         <div className="logo">Juan David Sarmiento</div>
         <ul className="nav-links">
           <li className="nav-li">
-            <a href=" ">Home</a>
+            <a href="libros">Libros</a>
           </li>
           <li className="nav-li">
-            <a href="About">Libros</a>
+            <a href="bio">Biografía</a>
           </li>
           <li className="nav-li">
-            <a href="Services">Biografía</a>
-          </li>
-          <li className="nav-li">
-            <a href="Contact">Contácto</a>
+            <a href="contacto">Contácto</a>
           </li>
         </ul>
       </nav>

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #61dafb;
+  background-color: #040404;
 }
 
 .App {
@@ -19,4 +19,27 @@ body {
 
 .block-body {
   padding: 4rem;
+  height: 95vh;
+  /* temp styles pending assess if remove this from main app */
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  color: #ada8bc80;
 }
