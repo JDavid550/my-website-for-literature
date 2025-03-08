@@ -1,3 +1,4 @@
+@use "./variables.scss" as v;
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-  background-color: #040404;
+  background-color: v.$background-color;
 }
 
 .App {
@@ -28,18 +29,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.footer {
-  display: flex;
-
-  margin: auto;
-  padding-bottom: 1rem;
-}
-
-.footer-div {
-  display: flex;
-  justify-content: flex-end;
-}
 
 p {
-  color: #ada8bc80;
+  color: v.$p-font-color;
 }
